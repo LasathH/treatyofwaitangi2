@@ -1,0 +1,68 @@
+#wrapper{display:grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-template-areas: "header header header"
+                      "sidebar main sidebar"
+                      "image image image"
+                      "footer footer footer";_}
+
+div{border:2px solid black}
+
+
+#header{text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    text-shadow: 20px;
+font-weight:bold;
+background-color: red;
+color: black;
+box-shadow: 5px 10px;
+grid-area: header;}
+
+#image{grid-area:image;
+background-color:lightcoral;
+text-align: center}
+
+#sidebar{grid-area: sidebar;
+background-color:lightcoral}
+
+#footer{grid-area:footer;
+}
+
+#main{background-color:lightcoral}
+
+
+
+img{width: 400px;
+border-radius: 30%;
+ border: 2px solid black;}
+
+h1{font-size: 30px;
+font-family: "Georgia", serif;
+color: red;
+background-color: green}
+h3{font-size: 30px;
+font-family: "Georgia", serif;
+color: red;
+background-color: green}
+h4{font-size: 30px;
+font-family: "Georgia", serif;}
+h5{font-size: 30px;
+font-family: "Georgia", serif;
+color: red;
+background-color: green}
+
+h4{font-size: 30px;
+font-family: "Georgia", serif;
+color: red;
+background-color: green}
+
+
+p{font-family: "Lucida Handwriting", Cursive;
+font-size: 25px}
+li{font-family: "Lucida Handwriting", Cursive;
+font-size: 25px}
+
+#footer{text-align: center;
+    font-family: fantasy, serif;
+color: cornsilk;
+background-color: burlywood}

@@ -1,0 +1,31 @@
+#header{font-size: 50px;
+    background-color:green;
+color:white}
+img{width:300px}
+h1{color: darkblue;
+font-size:30px}
+p{font-size:17px}
+h3{font-size:17px}
+h6{font-size: 17px}
+h4{font-size:30px;
+color:darkblue}
+h5{font-size:30px;
+color:darkblue}
+#footer{font size:17px;
+background-color: green}
+body{background-color: beige}
+html{border:10px solid lightgreen}
+
+#wrapper{display:grid;
+grid-template-columns:  3fr 1fr;
+grid-template-areas: "header header navigation"
+                      "main main navigation"
+                      "main main navigation"
+                      "footer footer footer";_}
+
+
+
+h7{color:darkblue;
+font-size:30px}
+
+#navigation{background-color: gainsboro}
